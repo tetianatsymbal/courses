@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forecast</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/forecast.css">
+    </head>
+    <body>
+        <div class="weather">
+            <div class="weather__select">
+                <select class="weather__day">
+                    <option value="">Please select a day of the week:</option>
+                    <option value="0">Sunday</option>
+                    <option value="1">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                    <option value="6">Saturday</option>
+                </select>
+            </div> <br>
+            <span class="weather__error-message">You haven't chosen an answer</span>
+            <div class="forecast weather__forecast">
+                <img src="" alt="" class="forecast__img">
+                <div class="forecast__block">
+                    <div class="forecast__temp"></div>
+                    <div class="forecast__description">
+                        <div class="forecast__day"></div>
+                        <div class="forecast__wind"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/forecast.js"></script>
+                    
+    
+    </body>
+</html>

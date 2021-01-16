@@ -1,0 +1,14 @@
+.sort {
+  margin-top: 10px;
+}
+.users {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user {
+  width: 24%;
+  border: 1px solid #000;
+  margin: 7px 7px 0 7px;
+  padding: 20px;
+  box-sizing: border-box;
+}

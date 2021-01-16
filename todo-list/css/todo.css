@@ -1,0 +1,51 @@
+.container{
+  padding: 15px;
+  border: 1px dashed #ccc;
+  width: 315px;
+  margin: 10px auto;
+}
+header{
+	display: flex;
+	justify-content: space-between; 
+}
+h1{
+	margin: 0;
+}
+form{
+	margin: 15px 0 0;
+}
+.clear-btn{
+	border: 0;
+	background: none;
+}
+.add-btn {
+  color: #fff;
+  background: #000;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.todo-list {
+  margin: 15px 0 0;
+}
+
+.todo-item:first-child{
+  display: none;
+}
+
+.del-btn {
+  color: #f00;
+  padding: 0 15px 0;
+  border: 0;
+}
+.title{
+  cursor: default;
+}
+.done{
+  text-decoration: line-through;
+}
+.task-error{
+  box-shadow: 0 0 3px #f00;
+}
+  

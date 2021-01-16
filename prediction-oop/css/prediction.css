@@ -1,0 +1,35 @@
+.prediction{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: aliceblue;
+    width: 600px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.description{
+    padding-left: 20px;
+}
+.btn-prediction{
+    width: 40%;
+    margin: 0 auto;
+}
+.result{
+    width: 90%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 45px;
+    box-sizing: border-box;
+}
+.card{
+    width: 170px;
+    height: 300px;
+}

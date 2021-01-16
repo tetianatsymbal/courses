@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dresses</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/dress-page.css">
+    </head>
+    <body>
+        <div class="filter">
+            <select class="filter__color">
+                <option value="">Choose colour</option>
+                <option value="red">red</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="grey">grey</option>
+                <option value="green">green</option>
+            </select>
+        </div>
+        <div class="goods container__flex container__fixed" id="goods-list">
+            <div class="product goods__product container__flex_vertical">
+                <div class="product__bestseller">BESTSELLER</div>
+                <div class="product__img"><img src="images/dress/product-1.jpg" alt="" class="img"></div>
+                <div class="description product__description">
+                    <div class="description__price">2000</div>
+                    <span class="description__discount-price"></span>
+                    <div class="description__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Pariatur, vitae, explicabo.
+                    </div>
+                    <div class="description__color">Color: <span class="description__color-val">white</span>
+                    </div>
+                    <a href="#" class="description__add-link">add to card</a>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/jquery-3.5.1.min.js"></script>
+        <script src="scripts/dress-data.js"></script>                
+        <script src="scripts/dress-list.js"></script> 
+    </body>
+</html>

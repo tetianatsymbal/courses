@@ -1,0 +1,57 @@
+.weather{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: aliceblue;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.weather__select{
+    text-align: center;
+}
+.weather__day{
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(210, 247, 222);
+    text-align: center;
+    border: 2px solid rgb(132, 151, 115);
+    border-radius: 0px;
+}
+.weather__error-message{
+    display: none;
+    color: #ff0000;
+    text-align: center;
+}
+.weather__forecast{
+    width: 390px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.forecast__img{
+    width: 160px;
+}
+.forecast__temp{
+    width: 150px;
+    font-size: 40px;
+    background-color:rgb(171, 199, 147);
+    border: 2px solid rgb(132, 151, 115);
+    text-align: center;
+}
+.forecast__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forecast__description{
+    margin: 20px 10px;
+}
+.forecast__day, .forecast__wind{
+    padding: 8px 0;
+}

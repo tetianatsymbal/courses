@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset='UTF-8'>
+		<style>
+			.b-textfield_error{
+				box-shadow:	0 0 2px red;
+			}
+			.b-form__message {
+				border: 1px solid;
+				border-radius: 3px;
+				margin: 10px 0;
+				padding: 10px;
+				display: none;
+			}
+			.b-form__message_error {
+				background: none repeat scroll 0 0 #FF0000;
+				border-color: #E30000;
+				color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<body>
+		<form action='?' method='GET' id='form2'>
+			<div class='b-form__message b-form__message_error'>
+			Форма заполнена неверно!
+			</div>
+			<table border='1'>
+				<tr>
+					<td><label class='b-form__label_name'>Название товара</label></td>
+					<td><input type='text' name='name' class='b-form__name b-textfield'></td>
+				</tr>
+				<tr>
+					<td><label class='b-form__label_brand'>Марка</label></td>
+					<td><input type='text' name='brand' class='b-form__brand b-textfield'></td>
+				</tr>
+				<tr>
+					<td><label class='b-form__label_price'>Цена</label></td>
+					<td><input type='text' name='price' class='b-form__price b-textfield'></td>
+				</tr>
+
+				<tr>
+					<td><label class='b-form__label_description'>Описание</label></td>
+					<td>
+						<textarea name='description' class='b-form__description b-textfield'></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type='submit' value='OK' class='b-form__ok-button'>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<script src="scripts/const.js"></script>
+		<script src="scripts/form-checker.js"></script>
+		
+	</body>
+</html>

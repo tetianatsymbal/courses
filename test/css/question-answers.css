@@ -1,0 +1,41 @@
+.answers{
+    display: none;
+    justify-content: flex-start;
+}
+.answer{
+    margin-right: 25px;
+}
+.question{
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+.choice-answer{
+    margin-right: 20px;
+}
+.error-msg{
+    display: none;
+    margin: 15px 0;
+    font-weight: 500;
+    font-style: italic;
+    color: #884b4b;
+}
+.next-btn{
+    width: 140px;
+    height: 40px;
+    background-color: #389256;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.result{
+    display: none;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+.score{
+    font-size: 16px;
+    color: #2d7545;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Сcal calculation</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/calc-cals.css">
+    </head>
+    <body>
+        <div class="calc" id="meal-calculator">
+			<h1 class="calc__name">Калькулятор калорий онлайн</h1>
+            <div class="product calc__product">
+				<div class="select-wrap">
+					<label for="product__select">Наименование</label><br>
+					<select class="product__select" id="product__select">
+						<option value="" disabled selected>Выберите названия продукта из списка</option>
+						<option value="116">Грудка куриная</option>
+						<option value="69">Гречка</option>
+						<option value="95">Лосось запеченный</option>
+						<option value="10">Помидор</option>
+						<option value="45">Грибы жаренные</option>
+						<option value="185">Омлет</option>
+						<option value="15">Огурцы</option>
+						<option value="90">Банан</option>
+						<option value="45">Яблоко</option>
+						<option value="230">Хлеб белый</option>
+						<option value="235">Творог 20%</option>
+						<option value="360">Сыр твердый</option>
+					</select>
+				</div>
+				<div class="quantity-wrap">
+					<label for="meal-quantity">Вес, г</label><br>
+					<input id="meal-quantity" type="text" name="quantity" class="meal-qty">
+				</div>
+				<input type="submit" value="Добавить" role="button" class="sub-btn">
+			</div>
+			<div class="menu">
+				<div class="meal menu__meal" id="menu-meal-1">
+					<div class="meal__meal-name"></div>
+					<div class="meal__meal-qty"></div>
+					<div class="meal__cal"></div>
+				</div>
+			</div>
+		</div>
+		<button class="calculate-btn">Рассчитать</button>
+		<div class="total">
+			<div class="total__heading-wrap">
+				<h3 class="total__heading">Итого:</h3>
+			</div>
+			<div class="total__cal"></div>
+		</div>
+		
+		<script src="scripts/jquery-3.5.1.min.js"></script>
+		<script src="scripts/calc-cals.js"></script>
+    </body>
+</html>

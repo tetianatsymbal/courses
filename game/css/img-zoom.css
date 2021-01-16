@@ -1,0 +1,22 @@
+.imgblock{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(172, 172, 172);
+    text-align: center;
+}
+.imgblock__small{
+    padding: 20px 0;
+}
+.imgblock__big{
+    display: none;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+}
+figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}

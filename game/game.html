@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/game.css">
+    </head>
+    <body>
+        <div class="game">
+            <div class="game__select">
+                <select class="game__select_user-answer">
+                    <option value="" class="item selected_item">Ваш ответ</option>
+                    <option value="rock" class="item">камень</option>
+                    <option value="scissors" class="item">ножницы</option>
+                    <option value="paper" class="item">бумага</option>
+                </select><br>
+                <span class="game__error-message">Вы не вибрали ответ</span>
+            </div>
+            <div class="game__result">
+                <div class="game__result-pic">
+                    <figcaption>Ваш выбор:</figcaption>
+                    <img src="" alt="" class="game__user-answer-img">
+                    <figcaption>Выбор противника:</figcaption>
+                    <img src="" alt="" class="game__computer-answer-img">
+                </div>
+                <div class ="game__result-text"><p class="game__text"></p></div>
+            </div>
+        </div>
+        <script src="scripts/game.js"></script>
+                    
+    
+    </body>
+</html>
