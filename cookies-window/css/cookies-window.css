@@ -12,17 +12,17 @@ body{
     transition: background 1s;
 }
 .bg-first{
-    background: url(../images/2.jpg) no-repeat 100%;
+    background: url(../images/1.jpg) no-repeat 100%;
 } 
-/* body.bg-second{
-    background-image: url(../images/2.jpg) no-repeat 100%;
+body.bg-second{
+    background: url(../images/2.jpg) no-repeat 100%;
 }
 body.bg-third{
-    background-image: url(../images/3.jpg) no-repeat 100%;
+    background: url(../images/3.jpg) no-repeat 100%;
 }
 body.bg-fourth{
-    background-image: url(../images/4.jpg) no-repeat 100%;
-} */
+    background: url(../images/4.jpg) no-repeat 100%;
+}
 .page__heading{
     font-size: 35px;
     color: rgb(11, 20, 27);
